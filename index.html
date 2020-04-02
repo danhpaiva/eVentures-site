@@ -14,28 +14,54 @@
     <!--Início do Header-->
     <header>
         <div class="container-fluid">
-            <h1 style="text-align: center;">eVentures</h1>
+            <h1 id="titulo">eVentures</h1>
         </div>
     </header>
     <!-- Fim do Header -->
 
-    <!--Início da NavBar-->
-    <ul class="nav">
-        <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Projetos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Sobre</a>
-        </li>
-    </ul>
-    <!--Fim da NavBar-->
+    <!--Início do Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">eVenture</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Saiba mais</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Digite aqui" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <!-- Fim do Navbar-->
     <!-- Início do Main-->
-    <div>
+    <div class="menu">
+        <div>
+            <img src="./image/imagehome.png" class="img-fluid" id="imagehome" alt="Imagem da Home">
+        </div>
+        <div class="textomain">
+            <h1>
+                Conheça a eVentures, uma StartUp Studio com objetivo
+                de criar e desenvolver diversos tipos de StartUps.
+            </h1>
+        </div>
     </div>
+
     <!-- Fim do Main-->
 
     <!-- Início do Footer -->
