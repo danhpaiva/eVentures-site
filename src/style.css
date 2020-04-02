@@ -24,11 +24,15 @@ html {
 }
 
 .textomain {
-    width: 40%;
+    margin: 1rem;
+    width: 90;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
+#footer-network{
+    background-color: darkslateblue;
+}
 .footer-copyright{
     color: white;
     background-color: black;
