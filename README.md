@@ -1,6 +1,6 @@
 # eVentures Site :computer:
 
-![eVentures Site](https://i.imgur.com/5OmJahW.png)
+![eVentures Site][center](https://i.imgur.com/5OmJahW.png)
 
 Projeto desenvolvido para avaliação de conhecimentos técnicos em desenvolvimento web.
 
@@ -9,7 +9,7 @@ Projeto desenvolvido para avaliação de conhecimentos técnicos em desenvolvime
 Descrição:
 
 O objetivo é conseguir desenvolver um site funcional e responsivo. 
-Na página contato utilizei a API do Google Maps para acessar a localização da StartUp.
+Na página "Sobre" utilizei a API do Google Maps para acessar a localização da StartUp.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -20,4 +20,4 @@ Project developed to evaluate technical knowledge in web development.
 Description:
 
 The goal is to be able to develop a functional and responsive website.
-On the contact page I used the Google Maps API to access the location of StartUp.
+On the "About" page I used the Google Maps API to access the location of StartUp.
