@@ -5,13 +5,14 @@ html {
 
 .container-fluid
 {
-    color: white;
+    color: whitesmoke;
     background-color: darkslateblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #titulo
 {
+    padding: 0.5%;
     font-size: 4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -24,6 +25,7 @@ html {
 
 #imagehome 
 {
+    margin-top: 1.5rem;
     width: 100%;
 }
 
@@ -35,19 +37,38 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#footer-network
-{
-    background-color: darkslateblue;
-}
-
 .footer-copyright
 {
-    color: white;
+    color: gray;
     background-color: black;
 }
 
-#sobre {
+#sobre 
+{
     text-align: center;
+    width: 75%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 1rem;
+    margin: auto;
+}
+
+#footer-space
+{
+    padding: 0.5%;
+    padding-left: 1%;
+}
+
+.contato
+{   
+    padding-left: 25%;
+    padding-top: 2%;
+    width: 75%;
+}
+
+#carouselExampleIndicators
+{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-bottom: 5%;
+    margin-right: auto;
+    width: 50%;
 }

@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./src/style.css">
-    <script src="https://kit.fontawesome.com/70cfaef43a.js" crossorigin="anonymous"></script>   
+    <script src="./src/validar.js"></script>
+    <script src="https://kit.fontawesome.com/70cfaef43a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>eVentures</title>
@@ -46,25 +47,70 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Digite aqui" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
         </div>
     </nav>
     <!-- Fim do Navbar-->
     <!-- Início do Main-->
-    <div class="menu">
-        <div>
-            <div class="textomain">
-                <h1>Seja bem vindo!</h1>
-                <h3>Conheça a eVentures, uma StartUp Studio com objetivo
-                    de criar e desenvolver diversos tipos de StartUps.
-                </h3>
-                <img src="./image/programmer.gif" class="img-fluid" alt="Programador">
-            </div>
+    <div>
+        <h2 style="text-align: center; padding-top: 1%;">Entre em contato conosco</h2>
+        <!-- Início do Form -->
+        <div class="contato">
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1"> Digite seu e-mail </label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="nome@exemplo.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1"> Selecione um campo </label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option> Elogio </option>
+                        <option> Crítica </option>
+                        <option> Orçamentos </option>
+                        <option> Outros </option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1"> Digite sua mensagem </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <!--- Botão em Modal -->
+
+                <button onclick="email ()" type="button" class="btn btn-dark" data-toggle="modal"
+                    data-target="#modalPaiva">
+                    Enviar
+                </button>
+
+                <!-- Modal Paiva -->
+                <div class="modal fade" id="modalPaiva" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"> Dados enviados com sucesso! </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p id="resposta"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal"> Okay! </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fim do Modal -->
+
+            </form>
         </div>
-        <div>
-            <img src="./image/imagehome.png" class="img-fluid" id="imagehome" alt="Imagem da Home">
-        </div>
+
+        <!-- Fim do Form -->
     </div>
 
     <!-- Fim do Main-->
@@ -79,14 +125,17 @@
             <div class="row">
 
                 <!-- Grid column -->
-                <div class="col-md-6 mt-md-0 mt-3">
+                <div class="col-md-6 mt-md-0 mt-3" id="footer-space">
 
                     <!-- Content -->
                     <h5 class="text-uppercase font-weight-bold">Endereço</h5>
-                    <h5>  eVentures Startup Studio  </h5>
+                    <h5> eVentures Startup Studio </h5>
                     <h6>Av. do Contorno, n° 6664, Centro, Belo Horizonte/MG, CEP: 30110-017</h6>
-                    <h6><i class="fas fa-phone-volume "></i> +55 31 9 9957-0062 &nbsp;&nbsp;&nbsp; <i class="fab fa-linkedin"></i>
-                        LinkedIn </h6>
+                    <h6><i class="fas fa-phone-volume "></i> +55 31 9 9957-0062 &nbsp;&nbsp;&nbsp;
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/company/eventures-startup-studio/"
+                            style="color: whitesmoke;">LinkedIn</a>
+                    </h6>
 
                 </div>
                 <!-- Grid column -->
@@ -101,7 +150,7 @@
 
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="https://www.linkedin.com/in/danhpaiva/"> Dev. Daniel Paiva</a>
+            <a href="https://www.linkedin.com/in/danhpaiva/" style="color: darkslateblue;"> Dev. Daniel Paiva</a>
         </div>
         <!-- Copyright -->
 
