@@ -1,6 +1,7 @@
 # eVentures Site :computer:
-
-![eVentures Site][center](https://i.imgur.com/5OmJahW.png)
+<p align="center">
+  <img src="https://i.imgur.com/5OmJahW.png">
+</p>
 
 Projeto desenvolvido para avaliação de conhecimentos técnicos em desenvolvimento web.
 
