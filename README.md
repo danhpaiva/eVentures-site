@@ -9,7 +9,7 @@
 
 ### Descrição:
 
-O objetivo é conseguir desenvolver um site funcional e responsivo. 
+O objetivo é conseguir desenvolver um site funcional e responsivo. <br>
 Na página "Sobre" utilizei a Google Maps JavaScript API para acessar e incluir a localização da StartUp.
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -22,5 +22,5 @@ Na página "Sobre" utilizei a Google Maps JavaScript API para acessar e incluir 
 
 #### Description:
 
-The goal is to be able to develop a functional and responsive website.
+The goal is to be able to develop a functional and responsive website. <br>
 On the "About" page, I used the Google Maps JavaScript API to access and include the location of StartUp.
