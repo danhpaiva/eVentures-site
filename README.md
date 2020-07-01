@@ -12,6 +12,10 @@
 O objetivo é conseguir desenvolver um site funcional e responsivo. <br>
 Na página "Sobre" utilizei a Google Maps JavaScript API para acessar e incluir a localização da StartUp.
 
+## :lock: Licença
+
+Desenvolvido por <a href="https://www.linkedin.com/in/danhpaiva/">Daniel Paiva</a>.
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 # eVentures Site (English)
