@@ -15,16 +15,3 @@ Na página "Sobre" utilizei a Google Maps JavaScript API para acessar e incluir 
 ## :lock: Licença
 
 Desenvolvido por <a href="https://www.linkedin.com/in/danhpaiva/">Daniel Paiva</a>.
-
------------------------------------------------------------------------------------------------------------------------------
-
-# eVentures Site (English)
-
-### Project developed to evaluate technical knowledge in web development.
-
-* Technologies used: HTML, CSS and JavaScript | BootStrap.
-
-#### Description:
-
-The goal is to be able to develop a functional and responsive website. <br>
-On the "About" page, I used the Google Maps JavaScript API to access and include the location of StartUp.
